@@ -220,6 +220,65 @@ header p {
   }
 }
 
+/* Simple Hero Section styles for header */
+.hero-header {
+  background: #003057; /* dark Intel blue for accessibility */
+  text-align: center; /* center all content */
+  padding: 40px 10px 32px 10px; /* space above and below */
+  border-radius: 12px; /* rounded corners for a modern look */
+  margin-bottom: 32px; /* space below the hero section */
+  color: #fff; /* white text for contrast */
+}
+
+.hero-header img {
+  max-width: 180px;
+  margin-bottom: 18px;
+}
+
+.hero-header h1 {
+  color: #fff; /* white for best contrast */
+  font-size: 2.2em;
+  margin-bottom: 12px;
+}
+
+.hero-header p {
+  color: #fff; /* white for best contrast */
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+/* Use Intel palette and consistent font for headings and sections */
+h1, h2, h3 {
+  color: #003057; /* Intel dark blue for all main headings */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Consistent modern font */
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif; /* Consistent modern font for all text */
+  background: #f0f7fa; /* Light blue background for the whole page */
+}
+
+.columns-section, .newsletter-section {
+  background: #f0f7fa; /* Consistent background for sections */
+  border: 1px solid #cce0f6;
+  border-radius: 10px;
+  padding: 24px 18px 18px 18px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(0,113,197,0.04);
+}
+
+/* Improve contrast for footer outline buttons */
+.btn-outline-primary {
+  color: #003057 !important; /* dark Intel blue for text */
+  border-color: #003057 !important; /* dark Intel blue for border */
+  background-color: #fff !important; /* white background for contrast */
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  color: #fff !important;
+  background-color: #003057 !important;
+  border-color: #003057 !important;
+}
+
 /*
 .timeline - the main timeline container
 .timeline-card - each event card on the timeline
